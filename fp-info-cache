@@ -1,4 +1,4 @@
-20677441305576859
+20684574010899252
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2702,6 +2702,13 @@ CONV_R-78AA5.0-1.0SMD-R
 10
 10
 CUFR-Footprint-Library
+CONV_R1S-123.3-R
+
+
+0
+5
+5
+CUFR-Footprint-Library
 CPC1017N
 
 
@@ -2806,6 +2813,20 @@ Resistor
 0
 2
 2
+CUFR-Footprint-Library
+F28069
+
+
+0
+118
+99
+CUFR-Footprint-Library
+F28069_shiftCan
+
+
+0
+112
+96
 CUFR-Footprint-Library
 FKN2WSJT-73-100R
 
@@ -87240,3 +87261,24 @@ varistor SIOV
 0
 2
 2
+footprints
+JM38510&slash_00104BCA
+
+
+0
+14
+14
+imageFootPrintsKicad
+comicDONTNEED
+
+
+0
+0
+0
+imageFootPrintsKicad
+killroy
+
+
+0
+0
+0
