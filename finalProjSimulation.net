@@ -1,0 +1,32 @@
+* C:\Users\ros\Desktop\GuitarPedalProject\finalProjSimulation.asc
+Vplus VDD 0 9
+Vminus VSS 0 -9
+XU1 N004 N002 VDD VSS stage1 lm741/ns
+R1 N002 N003 47k
+R2 N004 VDD 10k
+R3 0 N004 10k
+C1 N003 input .22µ
+V§input input 0 SINE(0 200m 1)
+R§VR1 stage1 N002 500k
+C4 VDD 0 100µ
+R4 N001 stage1 4.7k
+XU2 N004 N001 VDD VSS stage2 lm741/ns
+R5 stage2 N001 47k
+C2 stage2 N001 .22µ
+R6 N005 stage2 10k
+C3 stage3 N005 .47µ
+D1 VDD stage3 1N914
+D2 stage3 VDD 1N914
+.model D D
+.lib C:\Users\ros\Documents\LTspiceXVII\lib\cmp\standard.dio
+.include lm741.MOD
+* switch goes here >\n0 ohms is a short \n can be cut
+.tran 5
+* Put Commands Here
+* Battery Supply
+* First stage Amplification (x4)\nWorks 12/5
+* FUZZ FACTOR SCHEMATIC
+* Potentiometer
+* Gain Control
+.backanno
+.end
