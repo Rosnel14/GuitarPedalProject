@@ -1,0 +1,21 @@
+Circuit: * C:\Users\ros\Desktop\GuitarPedalProject\finalProjSimulation.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun May 14 21:33:33 2023
+Total elapsed time: 0.123 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2183
+traniter = 2172
+tranpoints = 1064
+accept = 1060
+rejected = 4
+matrix size = 76
+fillins = 98
+solver = Normal
+Matrix Compiler1: 8.97 KB object code size  1.5/0.7/[0.5]
+Matrix Compiler2: 7.97 KB object code size  0.6/0.7/[0.4]
+

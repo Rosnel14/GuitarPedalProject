@@ -1,0 +1,28 @@
+* C:\Users\ros\Desktop\GuitarPedalProject\v2 Pedal\finalProjSimulation.asc
+Vplus VDD 0 9
+R1 N003 N002 47k
+R2 N004 VDD 10k
+R3 0 N004 10k
+C1 N002 input .22µ
+V§input input 0 SINE(0 700m 1)
+XU1 N003 N004 VDD 0 stage1 TL072
+R§VR stage1 N003 500k
+C4 VDD 0 100µ
+C5 N004 0 10µ
+R4 N001 stage1 4.7k
+XU2 N001 N004 VDD 0 stage2 TL072
+R5 stage2 N001 33k
+C2 stage2 N001 22p
+R6 N005 stage2 10k
+C3 stage3 N005 .22µ
+D1 0 stage3 D
+D2 stage3 0 D
+.model D D
+.lib C:\Users\ros\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 5
+* Put Commands Here
+* Battery Supply
+* FUZZ FACTOR SCHEMATIC
+.lib C:\Users\ros\Desktop\GuitarPedalProject\v2 Pedal\sloj067\TL072.301
+.backanno
+.end
